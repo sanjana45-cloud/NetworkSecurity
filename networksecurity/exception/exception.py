@@ -1,5 +1,5 @@
 import sys
-from networksecurity.logger.logger import logging
+from networksecurity.logging import logger
 
 
 class NetworkSecurityException(Exception):
@@ -15,19 +15,19 @@ class NetworkSecurityException(Exception):
 
     def __str__(self):
 
-        return (
-            f"Error occurred in python script: "
-            f"[{self.file_name}] "
-            f"line number: [{self.lineno}] "
-            f"error message: [{self.error_message}]"
-        )
+        
+            return "Error occurred in python script name [{0}] line number [{1}] error message[{2}] ".format(
+            self.file_name,
+            self.lineno,
+            str(self.error_message))
+        
 
 
 if __name__ == "__main__":
 
     try:
 
-        logging.info("Enter the try block")
+        logger.logging.info("Enter the try block")
 
         a = 1 / 0
 
