@@ -1,3 +1,6 @@
+'''the setup.py file is essential  part of packaging and distributing 
+python projects .it is used by setuptools to define the configuration
+of your project,such as its metadata,dependencies and more'''
 from setuptools import setup, find_packages
 from typing import List
 
@@ -10,7 +13,7 @@ def get_requirements() -> List[str]:
     requirement_lst: List[str] = []
 
     try:
-        with open("requirements.txt") as f:
+        with open("requirements.txt") as f:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
             # Read lines from the file
             lines = f.readlines()
 
@@ -31,7 +34,7 @@ print(get_requirements())
 
 setup(
     name="NetworkSecurity",
-    version="0.0.1",
+    version="0.0.1",                                                 
     author="N S Sanjana",
     author_email="sanjanans317@gmail.com",
     packages=find_packages(),
