@@ -9,8 +9,11 @@ import certifi
 from sklearn.model_selection import train_test_split
 from dotenv import load_dotenv
 
+
 from networksecurity.exception.exception import NetworkSecurityException
-from networksecurity.logger.logger import logging
+from networksecurity.logging.logger import logging
+
+##Configuration of the data Ingestion config
 from networksecurity.entity.config_entity import DataIngestionConfig
 from networksecurity.entity.artifacts_entity import DataIngestionArtifact
 
@@ -18,7 +21,7 @@ from networksecurity.entity.artifacts_entity import DataIngestionArtifact
 # Load environment variables
 load_dotenv()
 
-MONGO_DB_URL = os.getenv("MONGO_DB_DATA")
+MONGO_DB_URL = os.getenv("MONGO_DB_URL")
 
 
 class DataIngestion:
@@ -30,7 +33,11 @@ class DataIngestion:
         except Exception as e:
             raise NetworkSecurityException(e, sys)
 
+   
+
     def export_collection_as_dataframe(self):
+        """
+        read the data from mongodb"""
         try:
             database_name = self.data_ingestion_config.database_name
             collection_name = self.data_ingestion_config.collection_name
@@ -43,7 +50,9 @@ class DataIngestion:
 
             # Convert MongoDB collection into DataFrame
             df = pd.DataFrame(list(collection.find()))
-
+            print("Database:", database_name)
+            print("Collection:", collection_name)
+            print("Number of records:", len(df))
             # Remove MongoDB ID column
             if "_id" in df.columns.to_list():
                 df = df.drop(columns=["_id"], axis=1)

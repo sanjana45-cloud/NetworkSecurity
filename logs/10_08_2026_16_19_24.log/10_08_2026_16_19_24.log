@@ -1,0 +1,8 @@
+[ 2026-10-08 16:19:24,906 ] 17 root - INFO - Initate the data ingestion
+[ 2026-10-08 16:19:24,906 ] 134 root - INFO - Started data ingestion
+[ 2026-10-08 16:19:30,630 ] 63 root - INFO - Data successfully exported from MongoDB
+[ 2026-10-08 16:19:30,700 ] 87 root - INFO - Data successfully exported into feature store
+[ 2026-10-08 16:19:30,708 ] 103 root - INFO - Performed train test split on the dataframe
+[ 2026-10-08 16:19:30,708 ] 111 root - INFO - Exporting train and test files
+[ 2026-10-08 16:19:30,762 ] 125 root - INFO - Exported train and test files
+[ 2026-10-08 16:19:30,763 ] 153 root - INFO - Completed data ingestion

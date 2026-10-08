@@ -1,0 +1,4 @@
+[ 2026-10-08 07:16:25,212 ] 17 root - INFO - Initate the data ingestion
+[ 2026-10-08 07:16:25,213 ] 132 root - INFO - Started data ingestion
+[ 2026-10-08 07:16:25,254 ] 61 root - INFO - Data successfully exported from MongoDB
+[ 2026-10-08 07:16:25,265 ] 85 root - INFO - Data successfully exported into feature store
