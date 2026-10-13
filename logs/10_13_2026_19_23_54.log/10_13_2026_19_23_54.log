@@ -1,0 +1,16 @@
+[ 2026-10-13 19:23:54,776 ] 20 root - INFO - Initiate the data ingestion
+[ 2026-10-13 19:23:54,776 ] 134 root - INFO - Started data ingestion
+[ 2026-10-13 19:23:58,659 ] 63 root - INFO - Data successfully exported from MongoDB
+[ 2026-10-13 19:23:58,755 ] 87 root - INFO - Data successfully exported into feature store
+[ 2026-10-13 19:23:58,763 ] 103 root - INFO - Performed train test split on the dataframe
+[ 2026-10-13 19:23:58,763 ] 111 root - INFO - Exporting train and test files
+[ 2026-10-13 19:23:58,837 ] 125 root - INFO - Exported train and test files
+[ 2026-10-13 19:23:58,837 ] 153 root - INFO - Completed data ingestion
+[ 2026-10-13 19:23:58,838 ] 22 root - INFO - Data Ingestion Completed
+[ 2026-10-13 19:23:58,850 ] 32 root - INFO - Initiate the data validation
+[ 2026-10-13 19:23:58,895 ] 38 root - INFO - Required number of columns: 31
+[ 2026-10-13 19:23:58,895 ] 39 root - INFO - Data frame has columns: 31
+[ 2026-10-13 19:23:58,895 ] 38 root - INFO - Required number of columns: 31
+[ 2026-10-13 19:23:58,895 ] 39 root - INFO - Data frame has columns: 31
+[ 2026-10-13 19:23:59,114 ] 166 root - INFO - Data validation completed successfully
+[ 2026-10-13 19:23:59,115 ] 34 root - INFO - Data validation completed

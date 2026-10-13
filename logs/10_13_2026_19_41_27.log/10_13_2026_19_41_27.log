@@ -1,0 +1,22 @@
+[ 2026-10-13 19:41:27,792 ] 20 root - INFO - Initiate the data ingestion
+[ 2026-10-13 19:41:27,793 ] 134 root - INFO - Started data ingestion
+[ 2026-10-13 19:41:39,296 ] 63 root - INFO - Data successfully exported from MongoDB
+[ 2026-10-13 19:41:39,374 ] 87 root - INFO - Data successfully exported into feature store
+[ 2026-10-13 19:41:39,380 ] 103 root - INFO - Performed train test split on the dataframe
+[ 2026-10-13 19:41:39,380 ] 111 root - INFO - Exporting train and test files
+[ 2026-10-13 19:41:39,435 ] 125 root - INFO - Exported train and test files
+[ 2026-10-13 19:41:39,436 ] 153 root - INFO - Completed data ingestion
+[ 2026-10-13 19:41:39,436 ] 22 root - INFO - Data Ingestion Completed
+[ 2026-10-13 19:41:39,442 ] 32 root - INFO - Initiate the data validation
+[ 2026-10-13 19:41:39,474 ] 38 root - INFO - Required number of columns: 31
+[ 2026-10-13 19:41:39,474 ] 39 root - INFO - Data frame has columns: 31
+[ 2026-10-13 19:41:39,474 ] 38 root - INFO - Required number of columns: 31
+[ 2026-10-13 19:41:39,474 ] 39 root - INFO - Data frame has columns: 31
+[ 2026-10-13 19:41:39,719 ] 166 root - INFO - Data validation completed successfully
+[ 2026-10-13 19:41:39,719 ] 34 root - INFO - Data validation completed
+[ 2026-10-13 19:41:39,719 ] 38 root - INFO - data transformation started
+[ 2026-10-13 19:41:39,719 ] 49 root - INFO - Entered initate_data_transformation method of data transformation class 
+[ 2026-10-13 19:41:39,719 ] 51 root - INFO - starting data transformation
+[ 2026-10-13 19:41:39,749 ] 37 root - INFO - Entered get_data_transformer_object method of transformation class
+[ 2026-10-13 19:41:39,749 ] 42 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-10-13 19:41:39,764 ] 40 root - INFO - Entered the save_object method of Mainutils class

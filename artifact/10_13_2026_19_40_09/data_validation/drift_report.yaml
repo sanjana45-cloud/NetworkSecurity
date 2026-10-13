@@ -1,0 +1,109 @@
+Abnormal_URL:
+  drift_status: &id001 !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - b1
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AA==
+  p_value: 0.9999999977781104
+DNSRecord:
+  drift_status: *id001
+  p_value: 1.0
+Domain_registeration_length:
+  drift_status: *id001
+  p_value: 0.3911770137386811
+Favicon:
+  drift_status: *id001
+  p_value: 0.9999510909578456
+Google_Index:
+  drift_status: *id001
+  p_value: 0.9999062353866229
+HTTPS_token:
+  drift_status: *id001
+  p_value: 1.0
+Iframe:
+  drift_status: *id001
+  p_value: 0.9890321623362285
+Links_in_tags:
+  drift_status: *id001
+  p_value: 0.9999971010402764
+Links_pointing_to_page:
+  drift_status: *id001
+  p_value: 1.0
+Page_Rank:
+  drift_status: *id001
+  p_value: 1.0
+Prefix_Suffix:
+  drift_status: *id001
+  p_value: 0.9925611176019148
+Redirect:
+  drift_status: *id001
+  p_value: 1.0
+Request_URL:
+  drift_status: *id001
+  p_value: 1.0
+Result:
+  drift_status: *id001
+  p_value: 0.9999510909578456
+RightClick:
+  drift_status: *id001
+  p_value: 1.0
+SFH:
+  drift_status: *id001
+  p_value: 1.0
+SSLfinal_State:
+  drift_status: *id001
+  p_value: 0.9903208205295254
+Shortining_Service:
+  drift_status: *id001
+  p_value: 1.0
+Statistical_report:
+  drift_status: *id001
+  p_value: 0.9999971010402764
+Submitting_to_email:
+  drift_status: *id001
+  p_value: 0.9999654772410788
+URL_Length:
+  drift_status: *id001
+  p_value: 0.9998728965778992
+URL_of_Anchor:
+  drift_status: *id001
+  p_value: 1.0
+age_of_domain:
+  drift_status: *id001
+  p_value: 0.9844261985874094
+double_slash_redirecting:
+  drift_status: *id001
+  p_value: 1.0
+having_At_Symbol:
+  drift_status: *id001
+  p_value: 1.0
+having_IP_Address:
+  drift_status: *id001
+  p_value: 0.995166717604938
+having_Sub_Domain:
+  drift_status: *id001
+  p_value: 0.8807137057443575
+on_mouseover:
+  drift_status: *id001
+  p_value: 0.9995152509457711
+popUpWidnow:
+  drift_status: *id001
+  p_value: 0.9999999991050752
+port:
+  drift_status: *id001
+  p_value: 0.9997064605886263
+web_traffic:
+  drift_status: *id001
+  p_value: 0.9998728965778992
