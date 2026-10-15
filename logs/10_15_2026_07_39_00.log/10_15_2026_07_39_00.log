@@ -1,0 +1,26 @@
+[ 2026-10-15 07:39:03,731 ] 22 root - INFO - Initiate the data ingestion
+[ 2026-10-15 07:39:03,732 ] 134 root - INFO - Started data ingestion
+[ 2026-10-15 07:39:08,906 ] 63 root - INFO - Data successfully exported from MongoDB
+[ 2026-10-15 07:39:08,980 ] 87 root - INFO - Data successfully exported into feature store
+[ 2026-10-15 07:39:08,984 ] 103 root - INFO - Performed train test split on the dataframe
+[ 2026-10-15 07:39:08,984 ] 111 root - INFO - Exporting train and test files
+[ 2026-10-15 07:39:09,045 ] 125 root - INFO - Exported train and test files
+[ 2026-10-15 07:39:09,046 ] 153 root - INFO - Completed data ingestion
+[ 2026-10-15 07:39:09,046 ] 24 root - INFO - Data Ingestion Completed
+[ 2026-10-15 07:39:09,052 ] 34 root - INFO - Initiate the data validation
+[ 2026-10-15 07:39:09,085 ] 38 root - INFO - Required number of columns: 31
+[ 2026-10-15 07:39:09,085 ] 39 root - INFO - Data frame has columns: 31
+[ 2026-10-15 07:39:09,085 ] 38 root - INFO - Required number of columns: 31
+[ 2026-10-15 07:39:09,085 ] 39 root - INFO - Data frame has columns: 31
+[ 2026-10-15 07:39:09,321 ] 166 root - INFO - Data validation completed successfully
+[ 2026-10-15 07:39:09,322 ] 36 root - INFO - Data validation completed
+[ 2026-10-15 07:39:09,322 ] 40 root - INFO - data transformation started
+[ 2026-10-15 07:39:09,322 ] 49 root - INFO - Entered initate_data_transformation method of data transformation class 
+[ 2026-10-15 07:39:09,322 ] 51 root - INFO - starting data transformation
+[ 2026-10-15 07:39:09,366 ] 37 root - INFO - Entered get_data_transformer_object method of transformation class
+[ 2026-10-15 07:39:09,366 ] 42 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-10-15 07:39:09,388 ] 40 root - INFO - Entered the save_object method of Mainutils class
+[ 2026-10-15 07:39:09,394 ] 44 root - INFO - Data transformation completed
+[ 2026-10-15 07:43:49,124 ] 40 root - INFO - Entered the save_object method of Mainutils class
+[ 2026-10-15 07:43:49,138 ] 121 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='artifact\\10_15_2026_07_39_00\\model_trainer\\model_trainer\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9915730337078652, precision_score=0.9903807615230461, recall_score=0.9927681799919646), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9755686604886268, precision_score=0.9690376569037656, recall_score=0.9821882951653944))
+[ 2026-10-15 07:43:49,140 ] 50 root - INFO - Model Training artifact created

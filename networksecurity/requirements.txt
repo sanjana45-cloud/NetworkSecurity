@@ -4,5 +4,5 @@ numpy
 pymongo
 certifi
 scikit-learn
-
+mlflow
 -e .

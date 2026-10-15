@@ -11,7 +11,9 @@ networksecurity/setup.py
 networksecurity/cloud/__init__.py
 networksecurity/components/__init__.py
 networksecurity/components/data_ingestion.py
+networksecurity/components/data_transformation.py
 networksecurity/components/data_validation.py
+networksecurity/components/model_trainer.py
 networksecurity/constants/__init__.py
 networksecurity/constants/training_pipeline/__init__.py
 networksecurity/entity/__init__.py

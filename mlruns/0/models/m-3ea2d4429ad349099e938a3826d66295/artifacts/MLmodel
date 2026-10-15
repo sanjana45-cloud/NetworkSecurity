@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/DELL/OneDrive/Documents/NetworkSecurity/mlruns/0/models/m-3ea2d4429ad349099e938a3826d66295/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-3ea2d4429ad349099e938a3826d66295
+model_size_bytes: 3983339
+model_uuid: m-3ea2d4429ad349099e938a3826d66295
+prompts: null
+utc_time_created: '2026-10-15 02:13:35.944926'
