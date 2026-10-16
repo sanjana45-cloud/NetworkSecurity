@@ -10,6 +10,9 @@ Requires-Dist: pymongo
 Requires-Dist: certifi
 Requires-Dist: scikit-learn
 Requires-Dist: pyaml
+Requires-Dist: dagshub
+Requires-Dist: Fastapi
+Requires-Dist: uvicorn
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

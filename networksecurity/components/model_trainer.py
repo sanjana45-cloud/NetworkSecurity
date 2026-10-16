@@ -14,6 +14,8 @@ from networksecurity.utils.main_utils.utils import (
     load_numpy_array_data,
 )
 import mlflow
+import dagshub
+dagshub.init(repo_owner='sanjana45-cloud', repo_name='NetworkSecurity', mlflow=True)
 from sklearn.model_selection import GridSearchCV
 from networksecurity.utils.main_utils.ml_utils.metric.classification_metric import get_classification_score
 from sklearn.metrics import f1_score
@@ -111,6 +113,7 @@ class ModelTrainer:
         self.model_trainer_config.trained_model_file_path,
         obj=network_model
 )
+        save_object("final_model/model.pkl",best_model)
 
         ##ModelTrainer Artifact
 

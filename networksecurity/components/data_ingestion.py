@@ -21,8 +21,11 @@ from networksecurity.entity.artifacts_entity import DataIngestionArtifact
 # Load environment variables
 load_dotenv()
 
-MONGO_DB_URL = os.getenv("MONGO_DB_URL")
-
+mongo_db_url = os.getenv("MONGO_DB_URL")
+client = pymongo.MongoClient(
+    mongo_db_url,
+    tlsCAFile=certifi.where()
+)
 
 class DataIngestion:
 

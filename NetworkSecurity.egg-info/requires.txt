@@ -5,3 +5,6 @@ pymongo
 certifi
 scikit-learn
 pyaml
+dagshub
+Fastapi
+uvicorn

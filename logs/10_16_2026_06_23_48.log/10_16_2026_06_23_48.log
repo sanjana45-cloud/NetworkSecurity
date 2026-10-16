@@ -1,0 +1,10 @@
+[ 2026-10-16 06:25:01,319 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2026-10-16 06:25:07,261 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2026-10-16 06:25:15,028 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-10-16 06:25:15,061 ] 107 dagshub - INFO - Accessing as sanjana45-cloud
+[ 2026-10-16 06:25:20,971 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sanjana45-cloud/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2026-10-16 06:25:23,373 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-10-16 06:25:23,376 ] 107 dagshub - INFO - Initialized MLflow to track repo "sanjana45-cloud/NetworkSecurity"
+[ 2026-10-16 06:25:23,378 ] 107 dagshub - INFO - Repository sanjana45-cloud/NetworkSecurity initialized!
+[ 2026-10-16 06:25:25,684 ] 22 root - INFO - Initiate the data ingestion
+[ 2026-10-16 06:25:25,684 ] 134 root - INFO - Started data ingestion
