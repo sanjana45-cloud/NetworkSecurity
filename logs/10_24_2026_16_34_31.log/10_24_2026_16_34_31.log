@@ -1,0 +1,12 @@
+[ 2026-10-24 16:34:45,035 ] 164 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2026-10-24 16:37:05,824 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-10-24 16:37:05,865 ] 107 dagshub - INFO - Accessing as sanjana45-cloud
+[ 2026-10-24 16:37:09,903 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sanjana45-cloud/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2026-10-24 16:37:12,145 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-10-24 16:37:12,147 ] 107 dagshub - INFO - Initialized MLflow to track repo "sanjana45-cloud/NetworkSecurity"
+[ 2026-10-24 16:37:12,210 ] 107 dagshub - INFO - Repository sanjana45-cloud/NetworkSecurity initialized!
+[ 2026-10-24 16:37:20,903 ] 128 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
