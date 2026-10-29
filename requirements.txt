@@ -8,4 +8,5 @@ pyaml
 dagshub
 Fastapi
 uvicorn
+mlflow
 -e .
